@@ -1,122 +1,65 @@
-# Hunter Scoggins Portfolio
+# Hunter Scoggins | Frontend Developer Portfolio
 
-Professional portfolio website for **Hunter Scoggins**, a Frontend Developer and Medical Laboratory Scientist, built to showcase technical projects, clinical domain expertise, and modern UI/UX execution.
+Frontend-focused portfolio site showcasing production-minded UI engineering, shipped project work, and a healthcare-informed problem-solving approach.
 
-## Live Website
+[Live Portfolio](https://hunter-scoggins-portfolio.vercel.app/) · [GitHub Repository](https://github.com/imhunterblake/Hunter-Scogggins-Portfolio) · [LinkedIn](https://www.linkedin.com/in/hunter-scoggins/)
 
-- Portfolio: https://hunter-scoggins-portfolio.vercel.app/
-- Repository: https://github.com/imhunterblake/Hunter-Scogggins-Portfolio
+## Snapshot
 
-## Preview
+**Hunter Scoggins** is a Frontend Developer and **ASCP board-certified Medical Laboratory Scientist** with 6+ years of clinical experience across 7 hospital systems in 5 states.
+
+This portfolio is built to show:
+- Strong frontend execution (clean architecture, responsive UI, interaction quality)
+- Practical product thinking (clarity, usability, recruiter-friendly narrative)
+- Domain depth in health-related workflows where software quality matters
+
+## Portfolio Preview
 
 ![Portfolio Screenshot](screenshot/portfolio.png)
 
-## About This Project
+## Why This Candidate Stands Out
 
-This portfolio is designed to communicate both technical skill and real-world impact.
-It combines a clean, high-contrast visual identity with smooth interactions and clear storytelling around projects, experience, and career direction.
+- **Healthcare + software crossover:** Direct clinical experience informs better product decisions for health tech
+- **Strong fundamentals:** JavaScript, React, Go, APIs, data structures, and algorithmic thinking
+- **Execution mindset:** Focus on polished UX, readable code, and deployable outcomes
+- **Professional communication:** Clear project storytelling tailored for hiring teams
 
-### Core Focus
+## Featured Work Presented in Portfolio
 
-- Present a strong frontend engineering profile
-- Highlight healthcare + software crossover experience
-- Showcase shipped project work with live and GitHub links
-- Provide clear contact pathways for recruiters and hiring teams
-
-## Features
-
-- **Modern hero section** with gradient visual treatment and animated intro
-- **Custom cursor system** with dynamic hover scaling
-- **Scroll reveal animations** powered by `IntersectionObserver`
-- **Parallax effects** on hero background/grid while scrolling
-- **Structured sections** for About, Skills, Projects, and Contact
-- **Responsive layout** optimized for desktop and mobile viewports
-- **Performance-minded vanilla stack** (no heavy frontend framework)
+- **Personal Financial Tracker** — Full-stack app with dashboard analytics, CRUD workflows, and REST API integration
+- **Outbound Sales Calls Tracker** — Fast, practical activity tracker built with vanilla web technologies
+- **BC's Sweets & Treats (Client Project)** — Production client website translating business goals into a polished web presence
 
 ## Tech Stack
 
-- **HTML5** for semantic page structure
-- **CSS3** with custom properties, gradients, and responsive layouts
-- **JavaScript (ES6+)** for interactive UI behavior and motion
-- **Google Fonts** (`Bebas Neue`, `DM Sans`) for typography
+- **Frontend:** HTML5, CSS3, JavaScript, React
+- **Backend/Language:** Go, REST APIs, JSON
+- **Tooling:** Git, GitHub, VS Code, Vercel
 
-## Project Structure
+## UX and Engineering Highlights
 
-```text
-.
-├── index.html      # Main page content and section structure
-├── styles.css      # Visual system, layout, responsive styling, animations
-└── script.js       # Cursor interaction, reveal observer, parallax behavior
-```
+- Custom cursor interaction system
+- Scroll-reveal animations using `IntersectionObserver`
+- Hero parallax motion effects
+- Responsive layout and clear visual hierarchy
+- Semantic structure for better readability and maintainability
 
-## Getting Started
-
-### 1) Clone the repository
+## Run Locally
 
 ```bash
 git clone https://github.com/imhunterblake/Hunter-Scogggins-Portfolio.git
 cd Hunter-Scogggins-Portfolio
-```
-
-### 2) Run locally
-
-Because this is a static site, you can run it with any local server.
-
-**Option A (VS Code Live Server extension):**
-- Open project in VS Code
-- Right-click `index.html`
-- Click **Open with Live Server**
-
-**Option B (Python):**
-
-```bash
 python3 -m http.server 5500
 ```
 
-Then open `http://localhost:5500`.
+Open `http://localhost:5500`.
 
-## Deployment
+## Contact
 
-This portfolio is static and deploys easily to:
-
-- Vercel
-- Netlify
-- GitHub Pages
-
-For Vercel:
-1. Import the GitHub repository
-2. Framework preset: **Other**
-3. Build command: _(none)_
-4. Output directory: project root (`/`)
-
-## Customization Guide
-
-- Update personal content in `index.html` (bio, projects, links, contact)
-- Adjust theme colors in CSS variables under `:root` in `styles.css`
-- Tune interaction behavior (cursor speed, reveal threshold, parallax intensity) in `script.js`
-
-## Accessibility & UX Notes
-
-- Semantic sectioning improves document structure
-- Smooth scrolling and reveal effects are balanced for readability
-- Clear typography hierarchy supports quick scanning by recruiters
-
-## Roadmap
-
-- Add dedicated project detail pages
-- Add downloadable resume button
-- Add form-based contact with validation + email service
-- Add Lighthouse performance/accessibility score badge
-
-## Author
-
-**Hunter Scoggins**
-
-- GitHub: https://github.com/imhunterblake
 - LinkedIn: https://www.linkedin.com/in/hunter-scoggins/
+- GitHub: https://github.com/imhunterblake
 - Email: hunter.scoggins2021@gmail.com
 
-## License
+## Hiring Note
 
-This project is available for portfolio and educational use.
-If you adapt it, please credit the original author.
+Actively pursuing **Frontend Developer** opportunities, with strong interest in **health tech** roles where clinical insight and software execution create measurable impact.
