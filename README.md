@@ -9,6 +9,7 @@ Frontend-focused portfolio site showcasing production-minded UI engineering, shi
 **Hunter Scoggins** is a Frontend Developer and **ASCP board-certified Medical Laboratory Scientist** with 6+ years of clinical experience across 7 hospital systems in 5 states.
 
 This portfolio is built to show:
+
 - Strong frontend execution (clean architecture, responsive UI, interaction quality)
 - Practical product thinking (clarity, usability, recruiter-friendly narrative)
 - Domain depth in health-related workflows where software quality matters
