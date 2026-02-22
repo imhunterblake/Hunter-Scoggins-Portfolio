@@ -673,3 +673,18 @@ footer p {
   .project-links { flex-direction: row; }
   footer { flex-direction: column; gap: 16px; text-align: center; }
 }
+
+/* Resume nav link - styled as a subtle button */
+.nav-resume {
+  padding: 8px 16px !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 4px !important;
+  color: var(--accent) !important;
+  transition: border-color 0.3s, background 0.3s !important;
+}
+
+.nav-resume:hover {
+  border-color: var(--accent) !important;
+  background: rgba(59, 130, 246, 0.08) !important;
+  color: var(--text) !important;
+}
