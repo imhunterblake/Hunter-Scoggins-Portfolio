@@ -15,7 +15,7 @@ This portfolio is built to show:
 
 ## Portfolio Preview
 
-![Portfolio Screenshot](screenshot/portfolio.png)
+![Portfolio Screenshot](screenshot/portfolio-2026-02-22.png)
 
 ## Why This Candidate Stands Out
 
