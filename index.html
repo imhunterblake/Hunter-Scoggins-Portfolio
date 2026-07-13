@@ -202,112 +202,125 @@
     <!-- PROJECTS -->
     <section id="projects">
       <p class="section-label reveal">Projects</p>
-      <h2 class="section-title reveal">Things I've Built</h2>
-      <div class="projects-grid">
-        <div class="project-card reveal">
-          <div class="project-number">01</div>
-          <div class="project-info">
-            <span class="project-tag">Full Stack — Featured</span>
-            <h3 class="project-title">Personal Financial Tracker</h3>
-            <p class="project-desc">
-              A production-grade full-stack financial management application
-              featuring real-time data visualization, comprehensive CRUD
-              operations, thread-safe caching, and an intuitive dashboard for
-              tracking income, expenses, and financial goals.
-            </p>
-            <div class="project-tech">
-              <span class="tech-pill">React</span>
-              <span class="tech-pill">Go</span>
-              <span class="tech-pill">REST API</span>
-              <span class="tech-pill">Data Visualization</span>
-              <span class="tech-pill">CSS3</span>
-            </div>
-          </div>
-          <div class="project-links">
-            <a
-              href="https://personal-financial-tracker-frontend-production.up.railway.app/"
-              target="_blank"
-              class="project-link live"
-              >Live Site</a
-            >
-            <a
-              href="https://github.com/imhunterblake"
-              target="_blank"
-              class="project-link"
-              >GitHub</a
-            >
-          </div>
-        </div>
-
-        <div class="project-card reveal">
-          <div class="project-number">02</div>
-          <div class="project-info">
-            <span class="project-tag">Vanilla JS — Utility App</span>
-            <h3 class="project-title">Outbound Sales Calls Tracker</h3>
-            <p class="project-desc">
-              A clean, intuitive sales activity tracker for logging outbound
-              calls, voicemails, emails, texts, new opportunities, and closed
-              deals — with persistent data history and a streamlined counter
-              interface built for speed and ease of use.
-            </p>
-            <div class="project-tech">
-              <span class="tech-pill">HTML5</span>
-              <span class="tech-pill">CSS3</span>
-              <span class="tech-pill">JavaScript</span>
-              <span class="tech-pill">Vercel</span>
-            </div>
-          </div>
-          <div class="project-links">
-            <a
-              href="https://outbound-sell-calls-tracker.vercel.app/"
-              target="_blank"
-              class="project-link live"
-              >Live Site</a
-            >
-            <a
-              href="https://github.com/imhunterblake"
-              target="_blank"
-              class="project-link"
-              >GitHub</a
-            >
-          </div>
-        </div>
-
-        <div class="project-card reveal">
-          <div class="project-number">03</div>
-          <div class="project-info">
-            <span class="project-tag">Client Work — Business Website</span>
-            <h3 class="project-title">BC's Sweets & Treats</h3>
-            <p class="project-desc">
-              A live client website built for a local bakery business. Features
-              a clean product showcase, pricing information, contact details,
-              and brand identity — demonstrating the ability to translate
-              real-world client needs into a polished, professional web
-              presence.
-            </p>
-            <div class="project-tech">
-              <span class="tech-pill">HTML5</span>
-              <span class="tech-pill">CSS3</span>
-              <span class="tech-pill">JavaScript</span>
-              <span class="tech-pill">Vercel</span>
-            </div>
-          </div>
-          <div class="project-links">
-            <a
-              href="https://bc-sweets.vercel.app/"
-              target="_blank"
-              class="project-link live"
-              >Live Site</a
-            >
-            <a
-              href="https://github.com/imhunterblake"
-              target="_blank"
-              class="project-link"
-              >GitHub</a
-            >
-          </div>
-        </div>
+      <div class="projects-header reveal">
+        <h2 class="section-title">Things I've Built</h2>
+        <a href="https://github.com/imhunterblake" target="_blank" class="btn-ghost projects-github-link">View GitHub →</a>
       </div>
+
+      <div class="carousel" id="projectCarousel">
+        <div class="carousel-track" id="carouselTrack">
+
+          <!-- SLIDE 1 — The Ember Room -->
+          <div class="carousel-slide">
+            <div class="slide-image-wrap">
+              <span class="slide-counter">01 / 04</span>
+              <img src="https://www.scoggins.digital/screenshots/rest-demo.png" alt="The Ember Room" class="slide-img" loading="lazy" />
+            </div>
+            <div class="slide-content">
+              <span class="slide-badge">Restaurant Demo</span>
+              <h3 class="slide-title">The Ember Room</h3>
+              <p class="slide-desc">A cinematic fine-dining concept for an Oxford, MS restaurant. Features wood-fired Southern cuisine branding, animated ember particles, a custom cursor, reservation form, and full menu layout — built to show local restaurant owners exactly what their site could feel like.</p>
+              <div class="slide-tags">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">Restaurant</span>
+                <span class="tech-pill">Animations</span>
+              </div>
+              <div class="slide-links">
+                <a href="https://restaurant-demo-phi-pearl.vercel.app/" target="_blank" class="btn-primary slide-btn-live">View Live Site →</a>
+                <a href="https://github.com/imhunterblake" target="_blank" class="btn-ghost slide-btn-gh">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- SLIDE 2 — Magnolia & Co. -->
+          <div class="carousel-slide">
+            <div class="slide-image-wrap">
+              <span class="slide-counter">02 / 04</span>
+              <img src="https://www.scoggins.digital/screenshots/boutique-demo.png" alt="Magnolia and Co." class="slide-img" loading="lazy" />
+            </div>
+            <div class="slide-content">
+              <span class="slide-badge">Boutique Demo</span>
+              <h3 class="slide-title">Magnolia &amp; Co.</h3>
+              <p class="slide-desc">An editorial women's boutique concept for a clothing boutique on Oxford's Courthouse Square. Features a luxury fashion aesthetic with scrolling marquee, editorial split hero, collection grid with hover reveals, and a personal styling services section.</p>
+              <div class="slide-tags">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">Retail</span>
+                <span class="tech-pill">Editorial</span>
+              </div>
+              <div class="slide-links">
+                <a href="https://boutique-demo-three.vercel.app/" target="_blank" class="btn-primary slide-btn-live">View Live Site →</a>
+                <a href="https://github.com/imhunterblake" target="_blank" class="btn-ghost slide-btn-gh">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- SLIDE 3 — BC's Sweets & Treats -->
+          <div class="carousel-slide">
+            <div class="slide-image-wrap">
+              <span class="slide-counter">03 / 04</span>
+              <img src="https://www.scoggins.digital/screenshots/BC-sweets.png" alt="BC's Sweets and Treats" class="slide-img" loading="lazy" />
+            </div>
+            <div class="slide-content">
+              <span class="slide-badge">Client Project</span>
+              <h3 class="slide-title">BC's Sweets &amp; Treats</h3>
+              <p class="slide-desc">A real client project for a local Oxford, MS bakery. Modern redesign featuring a mobile-first layout, full menu display, photo gallery, and contact section. Built from scratch with clean HTML, CSS, and JavaScript — delivered on time and on budget.</p>
+              <div class="slide-tags">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">Mobile-First</span>
+                <span class="tech-pill">Client Work</span>
+              </div>
+              <div class="slide-links">
+                <a href="https://bc-sweets.vercel.app/" target="_blank" class="btn-primary slide-btn-live">View Live Site →</a>
+                <a href="https://github.com/imhunterblake" target="_blank" class="btn-ghost slide-btn-gh">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- SLIDE 4 — Scoggins Digital -->
+          <div class="carousel-slide">
+            <div class="slide-image-wrap">
+              <span class="slide-counter">04 / 04</span>
+              <img src="https://www.scoggins.digital/screenshots/portfolio.png" alt="Scoggins Digital agency site" class="slide-img" loading="lazy" />
+            </div>
+            <div class="slide-content">
+              <span class="slide-badge">Agency Site</span>
+              <h3 class="slide-title">Scoggins Digital</h3>
+              <p class="slide-desc">My freelance web design agency, built for small businesses and local brands in Oxford, MS. Features a portfolio section, service offerings, and a contact form — crafted entirely in vanilla HTML, CSS, and JavaScript with no templates or shortcuts.</p>
+              <div class="slide-tags">
+                <span class="tech-pill">HTML</span>
+                <span class="tech-pill">CSS</span>
+                <span class="tech-pill">JavaScript</span>
+                <span class="tech-pill">Agency</span>
+                <span class="tech-pill">Freelance</span>
+              </div>
+              <div class="slide-links">
+                <a href="https://scoggins.digital" target="_blank" class="btn-primary slide-btn-live">View Live Site →</a>
+                <a href="https://github.com/imhunterblake" target="_blank" class="btn-ghost slide-btn-gh">GitHub</a>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- end .carousel-track -->
+
+        <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous slide">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 14L6 9L11 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next slide">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 4L12 9L7 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div><!-- end .carousel -->
     </section>
 
     <div class="line-divider"></div>
